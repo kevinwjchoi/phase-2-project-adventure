@@ -4,6 +4,7 @@ import React , {useEffect, useState} from "react";
 import Home from './Home';
 import NavBar from './NavBar';
 import AdventureList from './AdventureList';
+import About from './About';
 
 
 function App() {

@@ -1,7 +1,7 @@
 import App from "./components/App";
 import Home from "./components/Home";
 import AdventureList from "./components/AdventureList";
-
+import About from "./components/About";
 
 const routes = [
     {
