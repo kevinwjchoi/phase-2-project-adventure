@@ -1,5 +1,3 @@
- //Render individual <AdventureCard /> passing name, location, type, image
-
 import { useOutletContext } from 'react-router-dom';
 import React, {useState} from 'react';
 import AdventureCard from './AdventureCard';
@@ -7,7 +5,7 @@ import AdventureCard from './AdventureCard';
 function AdventureList({adventures}){
 
     const arrayOfAdventures = adventures.map((adventure) => {
-        return <AdventureCard key={adventure.id} adventure={adventure}/>
+        return <AdventureCard key={adventure.id} adventure={adventure}/>                    
     })
 
     return (

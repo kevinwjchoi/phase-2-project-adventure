@@ -1,17 +1,18 @@
-
 import React from "react";
+
 
 function AdventureCard({adventure}){
     const {name, location, image, type} = adventure;
     
 
     return(
-        <div>
-            <h2>{name} in {location}</h2>
-            <img src={image}/>
-            
-        </div>
-        
+            <div className="card-container">
+                <h3 className="adventure-name">{name} in {location}</h3>
+                <div className="image-container">
+                    <img src={image} alt={name} className="custom-image" />
+                </div>
+            </div>
+                
     )
 
 

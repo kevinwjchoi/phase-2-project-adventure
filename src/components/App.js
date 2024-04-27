@@ -1,8 +1,10 @@
+import './styles.css';
 import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
 import React , {useEffect, useState} from "react";
 import Home from './Home';
 import NavBar from './NavBar';
 import AdventureList from './AdventureList';
+
 
 function App() {
   const [adventures, setAdventures] = useState([])
@@ -15,16 +17,14 @@ function App() {
   }, [])
 
 
-
-
   return (
     <BrowserRouter>
     <div className="App">
       <header className="App-header">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home adventures={adventures}/>} />
-        <Route path="/adventurelist" element={<AdventureList adventures={adventures}/>} />
+        <Route path="/" element={<Home adventures={adventures} />} />
+        <Route path="/adventurelist" element={<AdventureList adventures={adventures} />} />
       </Routes>  
       </header>
     </div>
