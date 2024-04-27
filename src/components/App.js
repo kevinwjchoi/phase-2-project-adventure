@@ -16,6 +16,9 @@ function App() {
     .catch((error) => console.log(error))
   }, [])
 
+  function handleNewAdventure(newAdventure){
+    setAdventures([...adventures, newAdventure])
+  }
 
   return (
     <BrowserRouter>
@@ -23,7 +26,7 @@ function App() {
       <header className="App-header">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home adventures={adventures} />} />
+        <Route path="/" element={<Home adventures={adventures} handleNewAdventure={handleNewAdventure} />} />
         <Route path="/adventurelist" element={<AdventureList adventures={adventures} />} />
       </Routes>  
       </header>
