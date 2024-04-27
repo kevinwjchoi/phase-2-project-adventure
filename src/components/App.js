@@ -29,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home adventures={adventures} handleNewAdventure={handleNewAdventure} />} />
         <Route path="/adventurelist" element={<AdventureList adventures={adventures} />} />
+        <Route path="/about" element={<About />} /> 
       </Routes>  
       </header>
     </div>
