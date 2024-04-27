@@ -10,11 +10,13 @@ function Home({adventures}) {
 
     return (
       <div>
-        <h1>Home Page of the Adventure Journal</h1>
-        <p>Adventure Journal is Single Page Application (SPA) for keeping track of your adventures. Users can add new adventures with details like name, location, image URL, and type. This application uses a REST API to interact with a local db.json file, which contains an array of adventure objects.</p>
-        {outlet}
-        <h2>Here are a list of Adventure spots!</h2>
-        {nameOfAdventures}
+        <header>
+            <h1>Home Page of the Adventure Journal</h1>
+            <p>Adventure Journal is Single Page Application (SPA) for keeping track of your adventures. Users can add new adventures with details like name, location, image URL, and type. This application uses a RESTful API to interact with a local db.json file, which contains an array of adventure objects.</p>
+        </header>
+            {outlet}
+            <h2>Here are a list of Adventure spots!</h2>
+            {nameOfAdventures}
       </div>
     );
   }
