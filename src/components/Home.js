@@ -33,6 +33,21 @@ function Home({adventures, handleNewAdventure}) {
     //Handles what happens once submit button is clicked 
     function handleSubmit(e){
         e.preventDefault();
+
+        fetch("http://localhost:3000/adventures", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name: inputName,
+                image: inputImage,
+                location: inputLocation,
+                type: inputType
+            }),
+        })
+        .then((res) => res.json())
+        .then((newAdventure) => console.log(newAdventure));
     }
 
 
