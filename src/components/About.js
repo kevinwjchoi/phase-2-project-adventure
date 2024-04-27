@@ -10,6 +10,24 @@ function About(){
         Users can add new adventures with details like name, location, image URL, and type. 
         This application uses a RESTful API to interact with a local db.json file, 
         which contains an array of adventure objects.</p>
+
+
+        <p>
+            Other functions I plan on adding later:
+            <li>
+                Delete button to remove adventure spots
+            </li>
+            <li>
+                Filter by location
+            </li>
+            <li>
+                Filter by type
+            </li>
+            <li>
+                Update image URL
+            </li>
+        </p>
+
     </div>
     )
 
