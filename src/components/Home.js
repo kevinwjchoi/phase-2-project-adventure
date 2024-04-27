@@ -19,7 +19,14 @@ function Home({adventures, handleNewAdventure}) {
    //handles all the input values  
    function handleNameChange(e){
     setInputName(e.target.value)
-}    
+    }
+    function handleImageChange(e){
+        setInputImage(e.target.value)
+    }
+    function handleLocationChange(e){
+        setInputLocation(e.target.value)
+    }
+    
 
 
 
