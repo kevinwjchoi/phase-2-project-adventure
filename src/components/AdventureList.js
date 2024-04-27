@@ -12,10 +12,18 @@ function AdventureList({adventures}){
         <div>
             <h2>Take a look at all these beautiful places i've traveled to!</h2>
             <select>
-                <option>All</option>
+                <option>Filter by type</option>
                 <option>Beach</option>
                 <option>Forest</option>
                 <option>Hike</option>
+            </select>
+            <select>
+                <option>Filter by location</option>
+                <option>Orgeon</option>
+                <option>Costa Rica</option>
+                <option>Hawaii</option>
+                <option>Japan</option>
+                <option>Other</option>
             </select>
             {arrayOfAdventures}
         </div>
