@@ -15,6 +15,10 @@ const routes = [
             {
                 path: '/adventurelist',
                 element: <AdventureList />
+            },
+            {
+                path: '/about',
+                element: <About />
             }
         ]
     }
