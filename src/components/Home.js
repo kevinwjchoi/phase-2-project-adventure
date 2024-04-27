@@ -47,14 +47,8 @@ function Home({adventures, handleNewAdventure}) {
             }),
         })
         .then((res) => res.json())
-        .then((newAdventure) => console.log(newAdventure));
+        .then((newAdventure) => handleNewAdventure(newAdventure));
     }
-
-
-
-    
-
-
 
 
     return (
