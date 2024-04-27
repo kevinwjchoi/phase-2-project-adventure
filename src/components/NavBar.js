@@ -3,7 +3,7 @@ function NavBar(){
 
 
     return (
-        <nav>
+        <nav className='nav-bar'>
           <ul>
               <Link to="/">Home </Link>
               
