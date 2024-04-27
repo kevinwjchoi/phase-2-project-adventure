@@ -6,12 +6,20 @@ function AdventureCard({adventure}){
     
 
     return(
+        <>
             <div className="card-container">
                 <h3 className="adventure-name">{name} in {location}</h3>
                 <div className="image-container">
                     <img src={image} alt={name} className="custom-image" />
                 </div>
             </div>
+            <div>
+                <button>Delete this spot</button>
+            </div>
+        </>
+
+                
+
                 
     )
 
