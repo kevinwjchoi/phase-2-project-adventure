@@ -16,6 +16,7 @@ function AdventureList({adventures}){
                 <option>Beach</option>
                 <option>Forest</option>
                 <option>Hike</option>
+                <option>Other</option>
             </select>
             <select>
                 <option>Filter by location</option>
