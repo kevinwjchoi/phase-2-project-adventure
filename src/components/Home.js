@@ -26,6 +26,10 @@ function Home({adventures, handleNewAdventure}) {
     function handleLocationChange(e){
         setInputLocation(e.target.value)
     }
+    function handleTypeChange(e){
+        setInputType(e.target.value)
+    }
+
     
 
 
