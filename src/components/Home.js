@@ -30,6 +30,13 @@ function Home({adventures, handleNewAdventure}) {
         setInputType(e.target.value)
     }
 
+    //Handles what happens once submit button is clicked 
+    function handleSubmit(e){
+        e.preventDefault();
+    }
+
+
+
     
 
 
@@ -51,7 +58,7 @@ function Home({adventures, handleNewAdventure}) {
             <h2>Here are a list of Adventure spots!</h2>
             <ul>{nameOfAdventures}</ul>
 
-            <form >
+            <form onSubmit={handleSubmit}>
                 <h2>Add a new adventure spot!</h2>
                 <input type="text" value={inputName} onChange={handleNameChange} placeholder='Enter new adventure name'></input>
                 <input type="text" value={inputImage} onChange={handleImageChange}placeholder='Enter image url'></input>
