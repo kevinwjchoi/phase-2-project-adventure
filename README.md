@@ -16,6 +16,8 @@ Adventure Journal is Single Page Application (SPA) for keeping track of your adv
 1. Clone the repository: `git clone git@github.com:kevinwjchoi/phase-2-project-adventure-journal.git`
 2. Navigate to the project directory: `cd adventure-journal`
 3. Install dependencies: `npm install`
+4. Open json server: `json-server --watch db.json`
+5. Start the application: `npm start`
 
 ## Usage
 
