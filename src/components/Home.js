@@ -16,6 +16,10 @@ function Home({adventures, handleNewAdventure}) {
        return <h3 key={adventure.id}>{adventure.name}</h3>
     })
 
+   //handles all the input values  
+   function handleNameChange(e){
+    setInputName(e.target.value)
+}    
 
 
 
