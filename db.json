@@ -8,7 +8,7 @@
             "location": "Oregon"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Toketee Falls",
             "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Toketee_Falls_2019-10-19.jpg",
             "type": "Hike",
@@ -22,21 +22,21 @@
             "location": "Florida"
         },
         {
-            "id": 1,
+            "id": 4,
             "name": "Rio Celeste",
             "image": "https://d2xuzatlfjyc9k.cloudfront.net/wp-content/uploads/2014/05/5-Best-Costa-Rica-Waterfalls.jpg",
             "type": "WaterFall",
             "location": "Costa Rica"
         },
         {
-            "id": 1,
+            "id": 5,
             "name": "Lencois Maranhenses Sand Dunes",
             "image": "https://i.insider.com/56ddf94652bcd01a008b4b50?width=700&format=jpeg&auto=webp",
             "type": "Beach",
             "location": "Brazil"
         },
         {
-            "id": 1,
+            "id": 6,
             "name": "Yamagata Prefecture Ice Trees",
             "image": "https://i.insider.com/56df089452bcd01a008b4dfd?width=700&format=jpeg&auto=webp",
             "type": "Forest",
