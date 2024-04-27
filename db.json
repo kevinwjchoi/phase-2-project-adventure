@@ -1,0 +1,11 @@
+{
+    "adventures": [
+        {
+            "id": 1,
+            "name": "Hobbit Beach",
+            "image": "https://www.outdoorproject.com/sites/default/files/features/_MG_5034.jpg",
+            "type": "Beach",
+            "location": "Oregon"
+        }
+    ]
+}
