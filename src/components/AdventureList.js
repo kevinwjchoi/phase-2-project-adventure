@@ -1,5 +1,5 @@
-import { useOutletContext } from 'react-router-dom';
-import React, {useState} from 'react';
+
+import React from 'react';
 import AdventureCard from './AdventureCard';
 
 function AdventureList({adventures}){

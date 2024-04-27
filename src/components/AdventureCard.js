@@ -14,6 +14,8 @@ function AdventureCard({adventure}){
                 </div>
             </div>
             <div>
+                <button>Favorite this spot</button>
+                <spacer> </spacer>
                 <button>Delete this spot</button>
             </div>
         </>
