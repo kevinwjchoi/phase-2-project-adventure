@@ -1,12 +1,13 @@
 # Adventure Journal App
 
-Adventure Journal is Single Page Application (SPA) for keeping track of your adventures. Users can add new adventures with details like name, location, image URL, and type. This application uses a RESTful API to interact with a local db.json file, which contains an array of adventure objects.
+Adventure Journal is Single Page Application (SPA) for keeping track of your adventures. Users can add new adventures with details like name, location, image URL, and type. This application uses a RESTful API to interact with a local db.json file, which contains an array of adventure objects. It is able to make GET and POST requests. Will add PATCH and DELETE in the future if needed. 
 
 ## Components
 
 - App
 - NavBar
 - Home
+- About
 - AdventureList
 - AdventureCard
 
