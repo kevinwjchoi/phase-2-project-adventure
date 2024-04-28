@@ -2,7 +2,7 @@ import React from "react";
 
 
 function AdventureCard({adventure}){
-    const {name, location, image, type} = adventure;
+    const {name, location, image} = adventure;
     
 
     return(

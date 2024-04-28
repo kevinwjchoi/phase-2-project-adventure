@@ -55,6 +55,20 @@
       "location": "Hawaii",
       "type": "beach",
       "id": 9
+    },
+    {
+      "name": "Hawaii Beach",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyFXuhx3aXJFG48LAmBJKGPMslyrKMbUcVtYTwCkNSQ&s",
+      "location": "Hawaii",
+      "type": "beach",
+      "id": 10
+    },
+    {
+      "name": "Yosemite",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCeyXCruMLiML-kiikH29bl_EEJOCpJXlD3WVSkcIs2A&s",
+      "location": "California",
+      "type": "Hike",
+      "id": 11
     }
   ]
 }
