@@ -1,4 +1,3 @@
-import { useOutletContext } from 'react-router-dom';
 import React, {useState} from 'react';
 
 function Home({adventures, handleNewAdventure}) {
@@ -9,7 +8,7 @@ function Home({adventures, handleNewAdventure}) {
     const [inputLocation, setInputLocation] = useState("")
     const [inputType, setInputType] = useState("")
 
-    const outlet = useOutletContext();
+
 
     //mapping out every adventure name
     const nameOfAdventures = adventures.map((adventure) => {
@@ -63,7 +62,6 @@ function Home({adventures, handleNewAdventure}) {
             
         </header>
         <div>
-            {outlet}
             <h2>Here are a list of Adventure spots!</h2>
             <ul>{nameOfAdventures}</ul>
 
