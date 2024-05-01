@@ -2,6 +2,7 @@ import App from "./components/App";
 import Home from "./components/Home";
 import AdventureList from "./components/AdventureList";
 import About from "./components/About";
+import RandomWinnerForm from "./components/RandomWinnerForm";
 
 const routes = [
     {
@@ -19,6 +20,10 @@ const routes = [
             {
                 path: '/about',
                 element: <About />
+            },
+            {
+                path: '/randomwinnerform',
+                element: <RandomWinnerForm />
             }
         ]
     }

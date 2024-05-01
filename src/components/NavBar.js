@@ -13,6 +13,9 @@ function NavBar(){
           <ul>
             <Link to="/about">About</Link>
           </ul>
+          <ul>
+            <Link to="/randomwinnerform">Random Winner Form</Link>
+          </ul>
         </nav>
       );
 
