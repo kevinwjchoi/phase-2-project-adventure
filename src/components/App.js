@@ -27,10 +27,10 @@ function App() {
       <header className="App-header">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home adventures={adventures} handleNewAdventure={handleNewAdventure} />} />
+        <Route path="/" element={<Home adventures={adventures} />} />
         <Route path="/adventurelist" element={<AdventureList adventures={adventures} />} />
         <Route path="/about" element={<About />} /> 
-        <Route path="/adventureform" element={<AdventureForm />} />
+        <Route path="/adventureform" element={<AdventureForm handleNewAdventure={handleNewAdventure}  />} />
       </Routes>  
       </header>
     </div>

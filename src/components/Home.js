@@ -1,9 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function Home({adventures, handleNewAdventure}) {
-
-
-
+function Home({adventures}) {
 
 
     //mapping out every adventure name
@@ -11,39 +8,10 @@ function Home({adventures, handleNewAdventure}) {
        return <h3 key={adventure.id}>{adventure.name}</h3>
     })
 
-   //handles all the input values  
-   function handleNameChange(e){
-    setInputName(e.target.value)
-    }
-    function handleImageChange(e){
-        setInputImage(e.target.value)
-    }
-    function handleLocationChange(e){
-        setInputLocation(e.target.value)
-    }
-    function handleTypeChange(e){
-        setInputType(e.target.value)
-    }
 
-    //Handles what happens once submit button is clicked 
-    function handleSubmit(e){
-        e.preventDefault();
 
-        fetch("http://localhost:3000/adventures", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                name: inputName,
-                image: inputImage,
-                location: inputLocation,
-                type: inputType
-            }),
-        })
-        .then((res) => res.json())
-        .then((newAdventure) => handleNewAdventure(newAdventure));
-    }
+
+
 
 
     return (
@@ -53,6 +21,7 @@ function Home({adventures, handleNewAdventure}) {
             <p>You can always click 'Home' to return to this home page.</p>
             <p>Click on 'Adventures' to see a whole list of places with images.</p>
             <p>Click on 'About' to learn more about this SPA!</p>
+            <p>Click Add an Adventure to add more spots!</p>
             
         </header>
         <div>

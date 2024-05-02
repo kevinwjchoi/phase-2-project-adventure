@@ -69,6 +69,13 @@
       "location": "California",
       "type": "Hike",
       "id": 11
+    },
+    {
+      "name": "Bali",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/c7/90/94/caption.jpg",
+      "location": "Bali",
+      "type": "beach",
+      "id": 12
     }
   ]
 }
