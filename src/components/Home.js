@@ -9,11 +9,6 @@ function Home({adventures}) {
     })
 
 
-
-
-
-
-
     return (
       <div>
         <header>

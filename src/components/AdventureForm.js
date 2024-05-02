@@ -56,10 +56,10 @@ function AdventureForm({handleNewAdventure}){
         </header>
     <div>
         <form onSubmit={handleSubmit}>
-        <input type="text" value={inputName} onChange={handleNameChange} placeholder='Enter new adventure name'></input>
-        <input type="text" value={inputImage} onChange={handleImageChange}placeholder='Enter image url'></input>
-        <input type="text" value={inputLocation} onChange={handleLocationChange} placeholder='Enter image location'></input>
-        <input type="text" value={inputType} onChange={handleTypeChange} placeholder='Enter image type'></input>
+        <input type="text" value={inputName} onChange={handleNameChange} placeholder='Enter new adventure name' />
+        <input type="text" value={inputImage} onChange={handleImageChange}placeholder='Enter image url' />
+        <input type="text" value={inputLocation} onChange={handleLocationChange} placeholder='Enter image location'/>
+        <input type="text" value={inputType} onChange={handleTypeChange} placeholder='Enter image type' />
         <button>Submit</button>
         </form>
     </div>

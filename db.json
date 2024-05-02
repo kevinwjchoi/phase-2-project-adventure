@@ -76,6 +76,13 @@
       "location": "Bali",
       "type": "beach",
       "id": 12
+    },
+    {
+      "name": "Redwood Forest",
+      "image": "https://www.visitmelbourne.com/-/media/atdw/yarra-valley-and-dandenong-ranges/see-and-do/nature-and-wildlife/national-parks-and-reserves/ce58aabca9729c81fd6ad92c3bb5f074_1600x1200.jpeg?ts=20231218320627",
+      "location": "California",
+      "type": "Forest",
+      "id": 13
     }
   ]
 }
