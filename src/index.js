@@ -1,10 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import routes from "../src/routes";
+import App from './components/App';
+import Home from './components/Home';
+import AdventureList from './components/AdventureList';
+import About from './components/About';
+import AdventureForm from './components/AdventureForm';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const router = createBrowserRouter(routes)
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App />,
+        children: [
+            {
+                path: '/',
+                element: <Home />
+            },
+            {
+                path: '/adventurelist',
+                element: <AdventureList />
+            },
+            {
+                path: '/about',
+                element: <About />
+            },
+            {
+                path: '/adventureform',
+                element: <AdventureForm />
+            }
+        ]
+    }
+
+])
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

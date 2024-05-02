@@ -5,7 +5,7 @@ import Home from './Home';
 import NavBar from './NavBar';
 import AdventureList from './AdventureList';
 import About from './About';
-import RandomWinnerForm from './RandomWinnerForm';
+import AdventureForm from './AdventureForm';
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         <Route path="/" element={<Home adventures={adventures} handleNewAdventure={handleNewAdventure} />} />
         <Route path="/adventurelist" element={<AdventureList adventures={adventures} />} />
         <Route path="/about" element={<About />} /> 
-        <Route path="/randomwinnerform" element={<RandomWinnerForm />} />
+        <Route path="/adventureform" element={<AdventureForm />} />
       </Routes>  
       </header>
     </div>

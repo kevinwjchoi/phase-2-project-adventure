@@ -14,7 +14,7 @@ function NavBar(){
             <Link to="/about">About</Link>
           </ul>
           <ul>
-            <Link to="/randomwinnerform">Random Winner Form</Link>
+            <Link to="/adventureform">Add an Adventure Form</Link>
           </ul>
         </nav>
       );
