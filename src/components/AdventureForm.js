@@ -23,6 +23,8 @@ function AdventureForm({handleNewAdventure}){
         setInputType(e.target.value)
     }
 
+
+    //handles the submit button to make a POST request and create a new obj. Resets input values. 
     function handleSubmit(e){
         e.preventDefault();
 

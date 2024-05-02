@@ -10,6 +10,7 @@ Adventure Journal is Single Page Application (SPA) for keeping track of your adv
 - About
 - AdventureList
 - AdventureCard
+- Adventure Form
 
 ## Installation
 
